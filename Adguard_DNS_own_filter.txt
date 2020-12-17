@@ -1,0 +1,62 @@
+! Google
+||www.googletagmanager.com^
+googleapis
+||consent.google.com^
+||app-measurement.com^
+crashlytics.com^
+/(alt\d-)?mtalk.google.com/
+
+! web.de
+||einwilligungsspeicher.netid.de^
+||einwilligen.netid.de^
+
+! tracker
+fbcdn
+facebook
+!/[a-z]*\.facebook\.(com|net|de)/
+twitter
+pinterest
+miui
+!/[a-z0-9-.]*hicloud\.(net|com)[a-z0-9-.]*/
+hicloud
+
+! China
+.cn^
+qq.com^
+
+! Bets
+||bwin
+||bet365
+
+! Stellio
+||stellio.ru^
+mzstatic.com^
+||mr-zik.ru^
+
+!SwiftKey
+swiftkey.com^
+||tigger-citadel.touchtype-fluency.com^
+||in.appcenter.ms^
+||oneclient.sfx.ms^
+
+! Other Apps
+||gtm.oasisfeng.com^
+camscanner
+
+! Ntv
+!/bilder(\d).n-tv.de/
+||apps-cloud.n-tv.de^
+
+! Other
+||static.dwcdn.net^
+||datawrapper.dwcdn.net^
+usercentrics
+||as.otto.de^
+||fls-eu.amazon.de^
+||grs.dbankcloud
+||chromesyncpasswords
+||videos.chip.de^
+sigmacdn
+intsig
+
+
