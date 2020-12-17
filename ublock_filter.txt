@@ -1,0 +1,11 @@
+! Google Suche
+www.google.de###lb
+www.google.de##:root:style(overflow-y: visible !important;)
+consent.google.com/*
+
+! Youtube
+www.youtube.com##.opened
+www.youtube.com###dialog
+www.youtube.com##.no-transition.yt-upsell-dialog-renderer.style-scope
+youtube.com##ytd-popup-container
+youtube.com##ytd-consent-bump-lightbox.style-scope
