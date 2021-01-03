@@ -1,6 +1,6 @@
 ! Google
 ||www.googletagmanager.com^
-googleapis
+!googleapis
 ||consent.google.com^
 ||app-measurement.com^
 crashlytics.com^
@@ -19,6 +19,7 @@ pinterest
 miui
 !/[a-z0-9-.]*hicloud\.(net|com)[a-z0-9-.]*/
 hicloud
+@@connectivitycheck.platform.hicloud.com
 
 ! China
 .cn^
