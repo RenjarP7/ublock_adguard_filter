@@ -46,7 +46,7 @@ camscanner
 
 ! Ntv
 !/bilder(\d).n-tv.de/
-||apps-cloud.n-tv.de^
+!apps-cloud.n-tv.de^
 
 ! Other
 ||static.dwcdn.net^
