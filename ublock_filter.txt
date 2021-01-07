@@ -1,3 +1,11 @@
+@@https://*/favicon.ico
+
+! web.de
+https://dl.web.de/permission/*
+https://dl.web.de/uim/connector/*
+https://dl.web.de/*
+https://img.ui-portal.de/*
+
 ! Google Suche
 www.google.de###lb
 www.google.de##:root:style(overflow-y: visible !important;)
