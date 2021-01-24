@@ -4,7 +4,36 @@
 https://dl.web.de/permission/*
 https://dl.web.de/uim/connector/*
 https://dl.web.de/*
-https://img.ui-portal.de/*
+!https://img.ui-portal.de/*
+web.de##.main-content > div > div
+web.de##section:nth-of-type(3)
+web.de##section:nth-of-type(4)
+web.de##section:nth-of-type(5)
+web.de##section:nth-of-type(6)
+web.de##section:nth-of-type(7)
+web.de##section:nth-of-type(8)
+web.de##section:nth-of-type(9)
+web.de##section:nth-of-type(10)
+web.de##section:nth-of-type(11)
+web.de##section:nth-of-type(12)
+web.de##section:nth-of-type(13)
+web.de##section:nth-of-type(14)
+web.de##section:nth-of-type(15)
+web.de##section:nth-of-type(16)
+web.de##section:nth-of-type(17)
+web.de##section:nth-of-type(18)
+web.de##section:nth-of-type(19)
+web.de##section:nth-of-type(20)
+web.de##section:nth-of-type(21)
+web.de##section:nth-of-type(22)
+web.de##section:nth-of-type(23)
+web.de##section:nth-of-type(24)
+web.de##section:nth-of-type(25)
+web.de##section:nth-of-type(26)
+web.de##section:nth-of-type(27)
+web.de##.main-content > footer
+web.de##.main-content > header > div
+
 
 ! Google Suche
 www.google.de###lb
@@ -17,3 +46,12 @@ www.youtube.com###dialog
 www.youtube.com##.no-transition.yt-upsell-dialog-renderer.style-scope
 youtube.com##ytd-popup-container
 youtube.com##ytd-consent-bump-lightbox.style-scope
+
+! NoScript
+!*##.__NoScript_PlaceHolder__
+
+! pcgameshardware.de
+www.pcgameshardware.de##.articleMainTextModule > [src]
+www.pcgameshardware.de##.cxenseignore.ptm.smallCenter.innerArticleModule
+www.pcgameshardware.de##.affiliateNoteText
+www.pcgameshardware.de##.cxenseignore
