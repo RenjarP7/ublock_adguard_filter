@@ -1,10 +1,11 @@
+@@https://fonts.googleapis.com/
 @@https://*/favicon.ico
 
 ! web.de
-https://dl.web.de/permission/*
-https://dl.web.de/uim/connector/*
-https://dl.web.de/*
-!https://img.ui-portal.de/*
+dl.web.de/permission/*
+dl.web.de/uim/connector/*
+dl.web.de/*
+bap.navigator.web.de##.atl-banner--show.atl-banner
 web.de##.main-content > div > div
 web.de##section:nth-of-type(3)
 web.de##section:nth-of-type(4)
@@ -40,18 +41,32 @@ www.google.de###lb
 www.google.de##:root:style(overflow-y: visible !important;)
 consent.google.com/*
 
-! Youtube
+
+! Youtube 
 www.youtube.com##.opened
 www.youtube.com###dialog
 www.youtube.com##.no-transition.yt-upsell-dialog-renderer.style-scope
 youtube.com##ytd-popup-container
 youtube.com##ytd-consent-bump-lightbox.style-scope
 
-! NoScript
-!*##.__NoScript_PlaceHolder__
 
 ! pcgameshardware.de
 www.pcgameshardware.de##.articleMainTextModule > [src]
 www.pcgameshardware.de##.cxenseignore.ptm.smallCenter.innerArticleModule
 www.pcgameshardware.de##.affiliateNoteText
 www.pcgameshardware.de##.cxenseignore
+
+
+! warframe.market
+warframe.market##div[class*=disclaimer]
+warframe.market/static/build/workers/libs/analytics.js
+
+
+
+/.*fb.*\//
+/.*facebook.*\//
+/.*twitter.*\//
+/.*pinterest.*\//
+/.*miui.*\//
+/.*instagram.*\//
+/.*whatsapp.*\//
