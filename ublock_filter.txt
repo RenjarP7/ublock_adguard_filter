@@ -63,10 +63,15 @@ warframe.market/static/build/workers/libs/analytics.js
 
 
 
-/.*fb.*\//
-/.*facebook.*\//
-/.*twitter.*\//
-/.*pinterest.*\//
+facebook.com^$important
+facebook.net^$important
+fb.com^$important
+fbcdn.net^$important
+twitter.com^$important
+pinterest.de^$important
+pinterest.com^$important
+pinterest.at^$important
+fbcdn.net^$important
+instagram.com^$important
+whatsapp.com^$important
 /.*miui.*\//
-/.*instagram.*\//
-/.*whatsapp.*\//
