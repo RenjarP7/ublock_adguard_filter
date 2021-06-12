@@ -2,6 +2,9 @@
 @@https://*/favicon.ico
 
 ! web.de
+lps.navigator.web.de/*
+trackbar.navigator.web.de/*
+plus.web.de/*
 dl.web.de/permission/*
 dl.web.de/uim/connector/*
 dl.web.de/*
@@ -75,3 +78,9 @@ fbcdn.net^$important
 instagram.com^$important
 whatsapp.com^$important
 /.*miui.*\//
+
+! pcgameshardware.de
+www.pcgameshardware.de##.topbannerTeaser
+
+! twitch.tv
+www.twitch.tv###twilight-sticky-footer-root
