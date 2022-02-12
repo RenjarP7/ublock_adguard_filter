@@ -35,6 +35,29 @@ web.de##section:nth-of-type(24)
 web.de##section:nth-of-type(25)
 web.de##section:nth-of-type(26)
 web.de##section:nth-of-type(27)
+web.de##section:nth-of-type(28)
+web.de##section:nth-of-type(29)
+web.de##section:nth-of-type(30)
+web.de##section:nth-of-type(31)
+web.de##section:nth-of-type(32)
+web.de##section:nth-of-type(33)
+web.de##section:nth-of-type(34)
+web.de##section:nth-of-type(35)
+web.de##section:nth-of-type(36)
+web.de##section:nth-of-type(37)
+web.de##section:nth-of-type(38)
+web.de##section:nth-of-type(39)
+web.de##section:nth-of-type(40)
+web.de##section:nth-of-type(41)
+web.de##section:nth-of-type(42)
+web.de##section:nth-of-type(43)
+||js.ui-portal.de/homepage/res/1.23.0-rc8/webde/homepage.bundle.js$script,domain=web.de
+||js.ui-portal.de/homepage/res/1.23.0-rc8/webde/chunk-common.js$script,domain=web.de
+||js.ui-portal.de/homepage/res/1.23.0-rc8/webde/chunk-vendors.js$script,domain=web.de
+||img.ui-portal.de/search-int/osd/web/ff_webde_opensearch.xml$other,domain=web.de
+web.de##hp-block-navigation
+web.de##hp-header
+web.de##hp-login > div > p
 web.de##.main-content > footer
 web.de##.main-content > header > div
 
@@ -54,6 +77,9 @@ www.youtube.com###dialog
 www.youtube.com##.no-transition.yt-upsell-dialog-renderer.style-scope
 youtube.com##ytd-popup-container
 youtube.com##ytd-consent-bump-lightbox.style-scope
+www.youtube.com###scroll-container
+www.youtube.com##.ytd-shelf-renderer.style-scope.grid-subheader
+www.youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:has-text(/SHORTS/i)
 
 
 ! pcgameshardware.de
@@ -61,12 +87,25 @@ www.pcgameshardware.de##.articleMainTextModule > [src]
 www.pcgameshardware.de##.cxenseignore.ptm.smallCenter.innerArticleModule
 www.pcgameshardware.de##.affiliateNoteText
 www.pcgameshardware.de##.cxenseignore
+www.pcgameshardware.de##.topbannerTeaser
 
 
 ! warframe.market
 warframe.market##div[class*=disclaimer]
 warframe.market/static/build/workers/libs/analytics.js
 
+
+! twitch.tv
+www.twitch.tv###twilight-sticky-footer-root
+
+
+! startpage.com
+startpage.com##.learn-more-container
+startpage.com##.below-the-fold
+startpage.com###hide-promo-phase-1
+startpage.com##.add-homescreen--de.add-homescreen
+startpage.com###marketing-tag-container
+startpage.com##.layout-web__sidebar--web.layout-web__sidebar
 
 
 facebook.com^$important
@@ -81,9 +120,3 @@ fbcdn.net^$important
 instagram.com^$important
 whatsapp.com^$important
 /.*miui.*\//
-
-! pcgameshardware.de
-www.pcgameshardware.de##.topbannerTeaser
-
-! twitch.tv
-www.twitch.tv###twilight-sticky-footer-root
