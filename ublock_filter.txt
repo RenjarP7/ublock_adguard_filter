@@ -1,14 +1,14 @@
 @@https://fonts.googleapis.com/
 @@https://*/favicon.ico
 
+
 ! web.de
+einwilligungsspeicher.netid.de/*
 lps.navigator.web.de/*
 trackbar.navigator.web.de/*
 plus.web.de/*
 dl.web.de/permission/*
-dl.web.de/uim/connector/*
-dl.web.de/*
-bap.navigator.web.de##.atl-banner--show.atl-banner
+web.de##.atl-banner--show.atl-banner
 web.de##.main-content > div > div
 web.de##section:nth-of-type(3)
 web.de##section:nth-of-type(4)
@@ -60,6 +60,13 @@ web.de##hp-header
 web.de##hp-login > div > p
 web.de##.main-content > footer
 web.de##.main-content > header > div
+web.de##.upsell-link
+web.de##.shown.upsell-link
+navigator.web.de##a.navigator__item:nth-of-type(6)
+navigator.web.de##a.navigator__item:nth-of-type(7)
+navigator.web.de##a.navigator__item:nth-of-type(8)
+navigator.web.de##a.navigator__item:nth-of-type(9)
+navigator.web.de##a.navigator__item:nth-of-type(10)
 
 
 ! Google Suche
