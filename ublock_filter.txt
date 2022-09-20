@@ -67,6 +67,8 @@ navigator.web.de##a.navigator__item:nth-of-type(7)
 navigator.web.de##a.navigator__item:nth-of-type(8)
 navigator.web.de##a.navigator__item:nth-of-type(9)
 navigator.web.de##a.navigator__item:nth-of-type(10)
+navigator.web.de##.grid-right.grid-container
+navigator.web.de##div.grid-container:nth-of-type(2)
 
 
 ! Google Suche
