@@ -1,18 +1,28 @@
-! first article
-www.n-tv.de##article:nth-of-type(1)
+!ntv
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/mediathek/"])
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/auto/"])
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/sport/"])
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/wirtschaft/der_boersen_tag/"])
+n-tv.de/home/Das_Neueste/#?#article:has(span:has-text(/Schlagzeilen [ausmzr]{0,3} /))
+n-tv.de/home/Das_Neueste/#?#article:has(span:has-text(/Das war [A-z]{6,10}, der/))
+n-tv.de/home/Das_Neueste/#?#article:has(span:has-text(Was heute wichtig wird))
+n-tv.de/home/Das_Neueste/#?#article:has(span:has-text(Das wird heute wichtig))
+n-tv.de/home/Das_Neueste/#?#article:has(span:has-text(Schichtwechsel))
 
-! filter articles
-n-tv.de#?#article:has(a[href^="/mediathek/"])
-n-tv.de#?#article:has(a[href^="/mediathek/sendungen/"])
-n-tv.de#?#article:has(a[href^="/mediathek/videos/"])
-n-tv.de#?#article:has(a[href^="/auto/"])
-n-tv.de#?#article:has(a[href^="/sport/"])
-n-tv.de#?#article:has(a[href^="/wirtschaft/der_boersen_tag/"])
-n-tv.de#?#article:has(span:has-text(/Schlagzeilen [ausmzr]{0,3} /))
-n-tv.de#?#article:has(span:has-text(/Das war [A-z]{6,10}, der/))
-n-tv.de#?#article:has(span:has-text(Was heute wichtig wird))
-n-tv.de#?#article:has(span:has-text(Das wird heute wichtig))
-n-tv.de#?#article:has(span:has-text(Schichtwechsel))
+! Teaser Text
+n-tv.de/home/Das_Neueste/#?#[class*="Typography_text-default__"]
 
-! footer
-n-tv.de#?#footer:has(a[href^="https://gutscheine.n-tv.de/"])
+! Remove blocks in articles
+n-tv.de#?#[class*="Header_header__"]
+n-tv.de#?#[class*="Footer_footer__"]
+n-tv.de#?#[class*="widget-breadcrumb-default_breadcrumb__"]
+n-tv.de#?#[class*="widget-teaser-default_grey-background__"]
+n-tv.de#?#[class*="widget-teaser-inline_teaser__"]
+n-tv.de#?#[class*="social-share_social-share__"]
+n-tv.de#?#[class*="article-detail-footer_tags__"]
+n-tv.de#?#[class*="group-grid-sidebar_sidebar__"]
+n-tv.de#?#[class*="widget-infobox-inline_infobox__"]
+n-tv.de#?#[class*="widget-rtl-music-inline_wrapper__"]
+n-tv.de#?#[class*="Infographic_infographic__"]
+n-tv.de#?#[class*="widget-menu-ads-linklist_wrapper__"]
+n-tv.de#?#[class*="widget-affiliate-inline_wrapper__"]
