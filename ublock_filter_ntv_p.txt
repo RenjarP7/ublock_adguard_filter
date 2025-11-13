@@ -1,0 +1,18 @@
+! first article
+www.n-tv.de##article:nth-of-type(1)
+
+! filter articles
+n-tv.de#?#article:has(a[href^="/mediathek/"])
+n-tv.de#?#article:has(a[href^="/mediathek/sendungen/"])
+n-tv.de#?#article:has(a[href^="/mediathek/videos/"])
+n-tv.de#?#article:has(a[href^="/auto/"])
+n-tv.de#?#article:has(a[href^="/leute/"])
+n-tv.de#?#article:has(a[href^="/wirtschaft/der_boersen_tag/"])
+n-tv.de#?#article:has(span:has-text(/Schlagzeilen [ausmzr]{0,3} /))
+n-tv.de#?#article:has(span:has-text(/Das war [A-z]{6,10}, der/))
+n-tv.de#?#article:has(span:has-text(Was heute wichtig wird))
+n-tv.de#?#article:has(span:has-text(Das wird heute wichtig))
+n-tv.de#?#article:has(span:has-text(Schichtwechsel))
+
+! footer
+n-tv.de#?#footer:has(a[href^="https://gutscheine.n-tv.de/"])
