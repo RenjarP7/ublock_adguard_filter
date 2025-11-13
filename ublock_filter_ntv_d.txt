@@ -1,5 +1,7 @@
 !ntv
 n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/mediathek/"])
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/mediathek/sendungen/"])
+n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/mediathek/videos/"])
 n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/auto/"])
 n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/sport/"])
 n-tv.de/home/Das_Neueste/#?#article:has(a[href^="/leute/"])
