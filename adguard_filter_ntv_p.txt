@@ -1,0 +1,30 @@
+! == n-tv ==
+
+! Remove articles from n-tv.de/home/Das_Neueste
+[$path=/home/Das_Neueste]n-tv.de##article:has(a[href^="/mediathek/"])
+[$path=/home/Das_Neueste]n-tv.de##article:has(a[href^="/auto/"])
+[$path=/home/Das_Neueste]n-tv.de##article:has(a[href^="/leute/"])
+[$path=/home/Das_Neueste]n-tv.de##article:has(a[href^="/wirtschaft/der_boersen_tag/"])
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(/Schlagzeilen [ausmzr]{0,3} /))
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(/Das war [A-z]{6,10}, der/))
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Was heute wichtig wird))
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Das wird heute wichtig))
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Schichtwechsel))
+! Teaser Text from articles
+[$path=/home/Das_Neueste]n-tv.de##[class*="Typography_text-default__"]
+
+! Remove global blocks and in articles
+n-tv.de#?#[class*="Header_header__"]
+n-tv.de#?#[class*="Footer_footer__"]
+n-tv.de#?#[class*="widget-breadcrumb-default_breadcrumb__"]
+n-tv.de#?#[class*="widget-teaser-default_grey-background__"]
+n-tv.de#?#[class*="widget-teaser-inline_teaser__"]
+n-tv.de#?#[class*="social-share_social-share__"]
+n-tv.de#?#[class*="article-detail-footer_tags__"]
+n-tv.de#?#[class*="group-grid-sidebar_sidebar__"]
+n-tv.de#?#[class*="widget-infobox-inline_infobox__"]
+n-tv.de#?#[class*="widget-rtl-music-inline_wrapper__"]
+n-tv.de#?#[class*="Infographic_infographic__"]
+n-tv.de#?#[class*="widget-menu-ads-linklist_wrapper__"]
+n-tv.de#?#[class*="widget-affiliate-inline_wrapper__"]
+n-tv.de#?#[class*="storyline_embed_wrapper__"]
