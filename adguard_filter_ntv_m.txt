@@ -54,4 +54,3 @@ www.bunte.de#?#[id*="AdCarousel"]
 www.bunte.de#?#[id*="SlimPlayer"]
 www.bunte.de#?#.Article-Image
 www.bunte.de#?#.Footer
-www.bunte.de#?#[src*="burda-forward"]
