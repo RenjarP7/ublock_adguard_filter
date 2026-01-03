@@ -44,7 +44,14 @@ www.focus.de#?#[id*="AdCarousel"]
 
 ! == bunte ==
 
-www.bunte.de#?#[class*="Ad-Slot-"]
+www.bunte.de#?#[id*="AdSlot"]
+www.bunte.de#?#[id*="ad-slot"]
+www.bunte.de#?#[id*="Ad-Slot"]
+www.bunte.de#?#[class*="ad-slot"]
+www.bunte.de#?#[class*="Ad-Slot"]
 www.bunte.de#?#[id*="SocialWidget"]
 www.bunte.de#?#[id*="AdCarousel"]
-www.bunte.de##.Footer
+www.bunte.de#?#[id*="SlimPlayer"]
+www.bunte.de#?#.Article-Image
+www.bunte.de#?#.Footer
+www.bunte.de#?#[src*="burda-forward"]
