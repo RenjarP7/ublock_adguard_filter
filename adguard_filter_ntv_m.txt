@@ -29,6 +29,7 @@ n-tv.de#?#[class*="widget-menu-ads-linklist_wrapper__"]
 n-tv.de#?#[class*="widget-affiliate-inline_wrapper__"]
 n-tv.de#?#[class*="storyline_embed_wrapper__"]
 n-tv.de#?#[class*="article-detail-head_audio__"]
+n-tv.de#?#[class*="widget-video-default_video__"]
 
 
 ! == focus ==
