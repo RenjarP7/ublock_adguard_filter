@@ -52,6 +52,7 @@ www.bunte.de#?#[id*="Ad-Slot"]
 www.bunte.de#?#[class*="ad-slot"]
 www.bunte.de#?#[class*="Ad-Slot"]
 www.bunte.de#?#img[src*="quadro.burda-forward.de/ctf"][src$=".png"]
+www.bunte.de#?#div[class$=" "]:not([class="Grid-Wrapper "])
 www.bunte.de#?#[id*="SocialWidget"]
 www.bunte.de#?#[id*="AdCarousel"]
 www.bunte.de#?#[id*="SlimPlayer"]
