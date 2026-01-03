@@ -8,6 +8,7 @@
 [$path=/home/Das_Neueste]n-tv.de##article:has(a[href^="/wirtschaft/der_boersen_tag/"])
 [$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(/Schlagzeilen [ausmzr]{0,3} /))
 [$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(/Das war [A-z]{6,10}, der/))
+[$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(/Termine bis [0-9]{1,2}\./))
 [$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Was heute wichtig wird))
 [$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Das wird heute wichtig))
 [$path=/home/Das_Neueste]n-tv.de##article:has(span:has-text(Schichtwechsel))
