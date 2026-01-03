@@ -13,7 +13,7 @@
 ! Teaser Text from articles
 [$path=/home/Das_Neueste]n-tv.de##[class*="Typography_text-default__"]
 
-! Remove global blocks and in articles
+! Remove global ads everywhere
 n-tv.de#?#[class*="Header_header__"]
 n-tv.de#?#[class*="Footer_footer__"]
 n-tv.de#?#[class*="widget-breadcrumb-default_breadcrumb__"]
@@ -28,3 +28,23 @@ n-tv.de#?#[class*="Infographic_infographic__"]
 n-tv.de#?#[class*="widget-menu-ads-linklist_wrapper__"]
 n-tv.de#?#[class*="widget-affiliate-inline_wrapper__"]
 n-tv.de#?#[class*="storyline_embed_wrapper__"]
+n-tv.de#?#[class*="article-detail-head_audio__"]
+
+
+! == focus ==
+
+www.focus.de#?##gv-dock-wrapper-1
+www.focus.de#?#.mb-lg.mt-xl.TOC
+www.focus.de#?#.Article-Container > header
+www.focus.de#?##Linksbox-placement-D
+www.focus.de#?#.Footer
+www.focus.de#?#[id*="ArticleCommentsButton"]
+www.focus.de#?#[id*="AdCarousel"]
+
+
+! == bunte ==
+
+www.bunte.de#?#[class*="Ad-Slot-"]
+www.bunte.de#?#[id*="SocialWidget"]
+www.bunte.de#?#[id*="AdCarousel"]
+www.bunte.de##.Footer
